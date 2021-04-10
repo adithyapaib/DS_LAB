@@ -2,6 +2,7 @@
 #define MAX 5
 int stack[5];
 int top = -1;
+
 void push()
 {
     int ele;
@@ -35,6 +36,7 @@ void pop()
                 printf("stack[%d] = %d\n",i, stack[i]);
         }
  }
+
 void palindrome()
 {
     int i,count=0;
@@ -48,6 +50,8 @@ void palindrome()
     else
         printf("\nStack contents are not palindrome");
 }
+
+
 void main()
 {
     int choice;
